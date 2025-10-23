@@ -26,7 +26,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white font-sans flex flex-col">
+    <div className="min-h-screen text-white font-sans flex flex-col">
       <StarryBackground />
       <div className="relative z-10 flex flex-col flex-grow">
         <Header />
