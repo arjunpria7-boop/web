@@ -10,7 +10,7 @@ const TogelCard: React.FC<TogelCardProps> = ({ entry, onViewClick }) => {
   return (
     <div className="bg-slate-900/40 backdrop-blur-md border border-slate-700/50 rounded-lg overflow-hidden shadow-lg hover:shadow-purple-500/40 transition-shadow duration-300 transform hover:-translate-y-1">
       <div className="relative">
-        <img src={entry.imageUrl} alt={entry.marketName} className="w-full h-48 object-cover" />
+        <img src={entry.imageUrl} alt={entry.marketName} className="w-full h-48 object-cover object-top" />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
           <button
             onClick={() => onViewClick(entry.imageUrl, entry.marketName)}
