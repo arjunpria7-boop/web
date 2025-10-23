@@ -16,7 +16,7 @@ const DUMMY_TOGEL_DATA: TogelEntry[] = [
     marketName: 'SINGAPORE',
     closingTime: '17:45 WIB',
     result: '5678',
-    imageUrl: 'https://i.ibb.co/M8mYfXb/singapore.png',
+    imageUrl: 'https://i.postimg.cc/XqdF6ZXB/Screenshot-20251023-164608-2.jpg',
   },
   {
     id: 3,
