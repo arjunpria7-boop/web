@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import TogelCard from './components/TogelCard';
 import ImageViewerModal from './components/ImageViewerModal';
-import StarryBackground from './components/StarryBackground';
 import WhatsAppButton from './components/WhatsAppButton';
 import FloatingLogo from './components/FloatingLogo';
 import { useTogelData } from './hooks/useTogelData';
@@ -27,7 +26,6 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen text-white font-sans flex flex-col">
-      <StarryBackground />
       <div className="relative z-10 flex flex-col flex-grow">
         <Header />
         <main className="container mx-auto p-4 md:p-8 flex-grow">

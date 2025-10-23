@@ -12,7 +12,6 @@ body {
     
     background-size: 250% 250%; /* Ukuran gradien dibuat lebih besar dari layar */
     min-height: 100vh;
-    overflow: hidden; /* Mencegah scrollbar muncul karena elemen di luar layar */
     
     /* Animasi untuk Nebula */
     animation: move-nebula 200s ease-in-out infinite alternate;
