@@ -13,9 +13,12 @@ const Header: React.FC = () => {
         </div>
 
         <div className="flex flex-col items-center">
-            <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Prediksi ARJ
-            </h1>
+            <div className="flex items-center gap-3">
+              <img src="https://i.postimg.cc/hjqy34TJ/logo-ARJ-2-removebg-preview.png" alt="ARJ Logo" className="h-8 md:h-10" />
+              <h1 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                Prediksi ARJ
+              </h1>
+            </div>
             <RealTimeClock />
         </div>
 
